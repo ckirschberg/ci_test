@@ -11,4 +11,4 @@ jobs:
           node-version: '14'
       - run: npm install
       - name: Run linting
-        run: npm run lint
+        run: npm run lint:nofix
